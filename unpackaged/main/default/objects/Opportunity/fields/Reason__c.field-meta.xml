@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Process_Documentation__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All documents submitted</fullName>
+                <default>false</default>
+                <label>All documents submitted</label>
+            </value>
+            <value>
+                <fullName>Further documents are required</fullName>
+                <default>false</default>
+                <label>Further documents are required</label>
+            </value>
+            <value>
+                <fullName>Few documents are not correct</fullName>
+                <default>false</default>
+                <label>Few documents are not correct</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Partially received</controllingFieldValue>
+            <valueName>All documents submitted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fully received</controllingFieldValue>
+            <valueName>Further documents are required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fully received</controllingFieldValue>
+            <valueName>Few documents are not correct</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

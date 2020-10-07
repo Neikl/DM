@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fixed_rate_of_Interest__c</fullName>
+    <externalId>false</externalId>
+    <label>Fixed rate of Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Tenure_in_years__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2.875</fullName>
+                <default>false</default>
+                <label>2.875</label>
+            </value>
+            <value>
+                <fullName>2.72</fullName>
+                <default>false</default>
+                <label>2.72</label>
+            </value>
+            <value>
+                <fullName>2.625</fullName>
+                <default>false</default>
+                <label>2.625</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>15</controllingFieldValue>
+            <valueName>2.875</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>20</controllingFieldValue>
+            <valueName>2.72</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>30</controllingFieldValue>
+            <valueName>2.625</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

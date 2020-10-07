@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Score__c</fullName>
+    <externalId>false</externalId>
+    <label>CC Score</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Excellent(740+)</fullName>
+                <default>false</default>
+                <label>Excellent(740+)</label>
+            </value>
+            <value>
+                <fullName>Good(700+)</fullName>
+                <default>false</default>
+                <label>Good(700+)</label>
+            </value>
+            <value>
+                <fullName>Average(640+)</fullName>
+                <default>false</default>
+                <label>Average(640+)</label>
+            </value>
+            <value>
+                <fullName>Need Some work (639&amp;below)</fullName>
+                <default>false</default>
+                <label>Need Some work (639&amp;below)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

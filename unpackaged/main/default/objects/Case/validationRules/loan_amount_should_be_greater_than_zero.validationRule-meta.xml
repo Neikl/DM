@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>loan_amount_should_be_greater_than_zero</fullName>
+    <active>true</active>
+    <errorConditionFormula>(Loan_Amount__c)&gt;5000</errorConditionFormula>
+    <errorDisplayField>Loan_Amount__c</errorDisplayField>
+    <errorMessage>Loan amount should not be less than 0</errorMessage>
+</ValidationRule>

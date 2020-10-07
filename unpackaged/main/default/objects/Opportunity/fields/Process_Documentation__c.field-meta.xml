@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_Documentation__c</fullName>
+    <externalId>false</externalId>
+    <label>Process Documentation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Partially received</fullName>
+                <default>false</default>
+                <label>Partially received</label>
+            </value>
+            <value>
+                <fullName>Fully received</fullName>
+                <default>false</default>
+                <label>Fully received</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
